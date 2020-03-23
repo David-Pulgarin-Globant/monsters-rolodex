@@ -6,7 +6,8 @@ const SearchBox = ({ placeholder, onSearch }) => (
         className='search'
         type='search'
         placeholder={placeholder}
-        onChange={onSearch} />
+        onChange={onSearch}
+        aria-label="Search Robots" />
 );
 
 export default SearchBox;
